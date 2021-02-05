@@ -4,8 +4,9 @@ The client; Louise, produced a play called *Fever*, which came close to its fund
 ## Analysis and Challenges
 ### Analysis of Outcomes Based on Launch Date & Challenges
 #### Analysis
-To analyze campaign outcomes based on launch date, I created a [pivot table](https://github.com/Ariannatopbjerg/Bootcamp-first-repository-/blob/main/Kickstarter_Challenge.xlsx) in worksheet "Theater Outcomes by Launch Date," to view this data and a [line graph](https://github.com/Ariannatopbjerg/Bootcamp-first-repository-/blob/main/Theater_Outcomes_vs_Launch.png) to visualize what the pivot table was displaying. 
-Before I developed a pivot table, I first had to make a column; titled "Years" in the [kickstarter spreadsheet](https://github.com/Ariannatopbjerg/Bootcamp-first-repository-/blob/main/Kickstarter_Challenge.xlsx). I used the YEAR() function to collect the years from the “Date Created Conversion” column so I can use this new column in my pivot table, signifying launch dates of the campaigns I am looking at. 
+To analyze campaign outcomes based on launch date, I created a [pivot table](https://github.com/Ariannatopbjerg/Bootcamp-first-repository-/blob/main/Kickstarter_Challenge.xlsx); in worksheet "Theater Outcomes by Launch Date," to view this data and a [line graph](https://github.com/Ariannatopbjerg/Bootcamp-first-repository-/blob/main/Theater_Outcomes_vs_Launch.png) to visualize what the pivot table was displaying. 
+
+Before I developed a pivot table, I first had to make a column; titled "Years" in the [kickstarter spreadsheet](https://github.com/Ariannatopbjerg/Bootcamp-first-repository-/blob/main/Kickstarter_Challenge.xlsx). I used the 'YEAR()' function to collect the years from the “Date Created Conversion” column so I can use this new column in my pivot table; signifying the year of a launch date in which a campaign that I am looking at has taken place. 
 
 I used fields “Date Created Conversion” for rows; removing subfields “Years2” and “Quarters” to just show months, “outcomes” for columns and values, and “Years” and “Parent Category” for filters. I then filtered the table to only show theater campaigns. I then reorganized the outcomes so successful campaigns are shown first and failed in the second column. I then created a line graph for the pivot table.  
 #### Challenge
